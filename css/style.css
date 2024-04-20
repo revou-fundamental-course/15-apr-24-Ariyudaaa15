@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title h1 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.konversi {
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #04AA6D;
+    /*Green*/
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.reset {
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #008CBA;
+    /*Green*/
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.reverse {
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #f44336;
+    /*Green*/
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
