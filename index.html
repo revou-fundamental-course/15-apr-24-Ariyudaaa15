@@ -4,49 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Konversi Suhu</title>
+    <title>Mini Project Instructions</title>
 
-    <!-- Link Ke CSS -->
+    <!-- Link Ke File CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <section>
-        <div class="container">
-            <div class="title">
-                <h1>Mini Project Konversi Suhu</h1>
-                <p>Masukan Suhu derajat Celcius(&deg;C) Ke Kontak di Bawah <br>Lalu Klik Tombol Konversi Untuk
-                    Mendapatkan
-                    Hasil Konversi dalam Bentuk Fahrenheit(&deg;F)</p>
-            </div>
-
-            <div class="celcius">
-                <label for="celcius">Celcius(&deg;C)</label><br>
-                <input type="number" name="celcius" placeholder="Celcius" class="celcius">
-                <br>
-                <button type="submit" class="konversi">Konversi</button>
-                <button type="submit" class="reset">Reset</button>
-                <button type="submit" class="reverse">Reverse</button>
-            </div>
-
-            <div>
-                <input type="number" name="fahrenheit" placeholder="Fahrenheit">
-            </div>
-
-            <div class="carakalkulasi">
-                <input type="number" name="carakalkulasi" placeholder="Cara Kalkulasi">
-            </div>
-
+    <main class="content">
+        <h1 class="judul-satu">Koversi Suhu HTML CSS Javascript</h1>
+        <p class="paraf-satu">Masukan Suhu derajat Celcius(&deg;C) ke kontak dibawah ini, lalu klik tombol Konversi <br>
+            untuk mendapatkan konversi ke dalam bentuk Fahrenheit(&deg;F).</p>
+        <div class="celsius">
+            <h2>Celsius(&deg;C)</h2>
+            <input type="text" name="celsius" id="celsius">
             <div class="button">
-                <button>Bersihkan Semua</button>
+                <button id="koversi">Koversi</button>
+                <button id="reset">Reset</button>
+                <button id="reverse">Reverse</button>
             </div>
-
         </div>
-    </section>
+        <div class="fahrenheit">
+            <h2>Fahrenheit(&deg;F)</h2>
+            <input type="text" name="fahrenheit" id="fahrenheit">
+        </div>
+        <div class="kalkulasi">
+            <h2>Cara Kalkulasi</h2>
+            <input type="text" name="kalkulasi id=" kalkulasi">
+        </div>
 
+        <div class="text-akhir">
+            <h3>Fahrenheit Ke Celsius</h3>
+        </div>
+    </main>
 
-    <!-- Link Ke Javascript -->
 </body>
 
 </html>

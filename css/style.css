@@ -5,82 +5,124 @@
 }
 
 body {
-    background-color: blueviolet;
-    color: wheat;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.container {
+/* Content Awal */
+
+.content {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin: 250px auto;
+    width: 500px;
+    height: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: lightblue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
-.title h1 {
-    font-size: 30px;
+/* Judul */
+.content .judul-satu {
+    font-size: 15px;
     font-weight: bold;
+}
 
+/* Paragraf */
+
+.content .paraf-satu {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+/* Celcius */
+.content .celsius h2 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.content .celsius input {
+    margin-top: 15px;
+    width: 400px;
+    height: 80px;
+}
+
+/* Fahrenhiet */
+.content .fahrenheit h2 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.content .fahrenheit input {
+    margin-top: 15px;
+    width: 400px;
+    height: 80px;
 }
 
 
-.konversi {
-    margin-top: 5px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
+/* Cara Kalkulasi */
+.content .kalkulasi h2 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.content .kalkulasi input {
+    margin-top: 15px;
+    width: 400px;
+    height: 80px;
+}
+
+/* Button */
+.celsius .button {
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.celsius .button #koversi {
     background-color: #04AA6D;
-    /*Green*/
     border: none;
     color: white;
-    padding: 5px 5px;
+    padding: 7px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
 }
 
-.reset {
-    margin-top: 5px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    background-color: #008CBA;
-    /*Green*/
-    border: none;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.reverse {
-    margin-top: 5px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
+.celsius .button #reset {
     background-color: #f44336;
-    /*Green*/
     border: none;
     color: white;
-    padding: 5px 5px;
+    padding: 7px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
 }
+
+.celsius .button #reverse {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Content Akhir */
