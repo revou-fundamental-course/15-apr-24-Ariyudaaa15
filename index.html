@@ -12,32 +12,80 @@
 
 <body>
 
-    <main class="content">
-        <h1 class="judul-satu">Koversi Suhu HTML CSS Javascript</h1>
-        <p class="paraf-satu">Masukan Suhu derajat Celcius(&deg;C) ke kontak dibawah ini, lalu klik tombol Konversi <br>
-            untuk mendapatkan konversi ke dalam bentuk Fahrenheit(&deg;F).</p>
-        <div class="celsius">
-            <h2>Celsius(&deg;C)</h2>
-            <input type="text" name="celsius" id="celsius">
-            <div class="button">
-                <button id="koversi">Koversi</button>
-                <button id="reset">Reset</button>
-                <button id="reverse">Reverse</button>
+    <!-- <main class="content">
+        <form action="">
+            <h1 class="judul-satu">Koversi Suhu HTML CSS Javascript</h1>
+            <p class="paraf-satu">Masukan Suhu derajat Celcius(&deg;C) ke kontak dibawah ini, lalu klik tombol Konversi
+                <br>
+                untuk mendapatkan konversi ke dalam bentuk Fahrenheit(&deg;F).
+            </p>
+            <div class="celsius">
+                <h2>Celsius(&deg;C)</h2>
+                <input type="text" name="celsius" id="celsius">
+                <div class="button">
+                    <button id="koversi">Koversi</button>
+                    <button id="reset">Reset</button>
+                    <button id="reverse">Reverse</button>
+                </div>
             </div>
-        </div>
-        <div class="fahrenheit">
-            <h2>Fahrenheit(&deg;F)</h2>
-            <input type="text" name="fahrenheit" id="fahrenheit">
-        </div>
-        <div class="kalkulasi">
-            <h2>Cara Kalkulasi</h2>
-            <input type="text" name="kalkulasi id=" kalkulasi">
-        </div>
+            <div class="fahrenheit">
+                <h2>Fahrenheit(&deg;F)</h2>
+                <input type="text" name="fahrenheit" id="fahrenheit">
+            </div>
+            <div class="kalkulasi">
+                <h2>Cara Kalkulasi</h2>
+                <input type="text" name="kalkulasi id=" kalkulasi">
+            </div>
 
-        <div class="text-akhir">
-            <h3>Fahrenheit Ke Celsius</h3>
-        </div>
-    </main>
+            <div class="text-akhir">
+                <h3>Fahrenheit Ke Celsius</h3>
+            </div>
+        </form>
+    </main> -->
+
+
+    <section>
+        <h1>Konversi Suhu HTML CSS JAVASCRIPT</h1>
+        <form action="#">
+            <p>Masukan Suhu derajat Celcius(&deg;C) ke kontak dibawah ini, lalu klik tombol Konversi
+                <br>
+                untuk mendapatkan konversi ke dalam bentuk Fahrenheit(&deg;F).
+            </p>
+            <!-- Celsius -->
+            <div class="celsius">
+                <label for="#">Celsius(&deg;C) :</label>
+                <div class="input-celsius">
+                    <input type="text" name="celsius" id="celsius">
+                </div>
+                <!-- Button  -->
+                <div class="button">
+                    <button type="submit" class="Konversi">Konversi</button>
+                    <button type="submit" class="Reset">Reset</button>
+                    <button type="submit" class="Reverse">Reverse</button>
+                </div>
+            </div>
+
+            <!-- Reset -->
+            <div class="fahrenheit">
+                <label for="#">Fahrenheit(&deg;F) :</label>
+                <div class="input-fahrenheit">
+                    <input type="text" name="fahrenheit" id="fahrenheit">
+                </div>
+            </div>
+
+            <!-- Reverse -->
+            <div class="kalkulasi">
+                <label for="#">Cara Kalkulasi :</label>
+                <div class="input-kalkulasi">
+                    <input type="text" name="kalkulasi" id="kalkulasi">
+                </div>
+            </div>
+
+            <div class="hasil">
+                <h3>Fahrenheit Ke Celsius</h3>
+            </div>
+        </form>
+    </section>
 
 </body>
 
